@@ -1,0 +1,99 @@
+/* All Common CSS Start */
+* {
+    margin: 0;
+    padding: 0;
+    outline: 0;
+    box-sizing: border-box;
+}
+
+a,
+a:hover {
+    text-decoration: none;
+    display: inline-block;
+}
+
+ul,
+ol {
+    list-style-type: none;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+    margin: 0;
+    padding: 0;
+    line-height: 0.8;
+}
+
+/* All Common CSS End */
+#jsPractice {
+    background-color: rgb(21, 21, 21);
+    height: 900px;
+}
+
+.counterHolder {
+    padding-top: 50px;
+}
+
+.counterItem {
+    background-color: #2d2d2d;
+    color: #dddddd;
+    padding: 20px 50px;
+    text-align: center;
+    border-top-right-radius: 50px;
+    border-top-left-radius: 50px;
+    border-bottom-left-radius: 50px;
+    border-bottom-right-radius: 50px;
+    margin-top: 0;
+    margin-bottom: 40px;
+}
+
+.counterItem h3 {
+    color: #dddddd;
+    font-family: "Oswald", sans-serif;
+    font-size: 45px;
+    font-weight: 600;
+    line-height: 72px;
+}
+
+.counterItem p {
+    color: #b1e556;
+    font-family: "Oswald", sans-serif;
+    font-size: 22px;
+    font-weight: 400;
+    line-height: 18px;
+}
+
+button {
+    padding: 10px 20px;
+    background-color: #2d2d2d;
+    border: none;
+    color: #b1e556;
+    border-radius: 10px;
+    margin-top: 40px;
+    font-family: "Oswald", sans-serif;
+    cursor: pointer;
+    margin-right: 3px;
+}
+
+.box {
+    margin-top: 20px;
+    margin-bottom: 90px;
+    height: 250px;
+    width: 500px;
+    background-color: #b1e556;
+    border-radius: 10px;
+}
+
+.boxtwo {
+    margin-top: 20px;
+    margin-bottom: 90px;
+    height: 250px;
+    width: 500px;
+    background-color: #509fdb;
+    border-radius: 10px;
+}
