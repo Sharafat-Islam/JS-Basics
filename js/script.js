@@ -105,3 +105,17 @@ $(function () {
         $(".box").removeClass("boxtwo");
     });
 });
+new VenoBox({
+    selector: '.my-video-links',
+});
+$('.sliders').slick({
+    slidesToShow: 2,
+    slidesToScroll: 1,
+    autoplay: true,
+    autoplaySpeed: 800,
+    dots: false,
+    prevArrow:'<i class="fa-solid fa-chevron-left prev"></i>',
+    nextArrow:'<i class="fa-solid fa-chevron-right next"></i>',
+
+
+});

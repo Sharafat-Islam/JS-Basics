@@ -32,7 +32,7 @@ p {
 /* All Common CSS End */
 #jsPractice {
     background-color: rgb(21, 21, 21);
-    height: 900px;
+    height: 2500px;
 }
 
 .counterHolder {
@@ -64,7 +64,7 @@ p {
     color: #b1e556;
     font-family: "Oswald", sans-serif;
     font-size: 22px;
-    font-weight: 400;
+    font-weight: 500;
     line-height: 18px;
 }
 
@@ -75,6 +75,7 @@ button {
     color: #b1e556;
     border-radius: 10px;
     margin-top: 40px;
+    margin-bottom: 40px;
     font-family: "Oswald", sans-serif;
     cursor: pointer;
     margin-right: 3px;
@@ -96,4 +97,53 @@ button {
     width: 500px;
     background-color: #509fdb;
     border-radius: 10px;
+}
+
+.card a {
+    border: none;
+    background-color: rgb(21, 21, 21);
+}
+
+.card h3 {
+    padding: 10px 20px;
+    font-family: "Oswald", sans-serif;
+}
+
+.one {
+    background: url(../images/1.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    padding: 250px 0;
+}
+
+.two {
+    background: url(../images/2.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.three {
+    background: url(../images/3.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.prev {
+    font-size: 35px;
+    position: absolute;
+    top: 50%;
+    left: 10px;
+    transform: translateY(-50%);
+    z-index: 99999;
+}
+
+.next {
+    font-size: 35px;
+    position: absolute;
+    top: 50%;
+    right: 10px;
+    transform: translateY(-50%);
 }
